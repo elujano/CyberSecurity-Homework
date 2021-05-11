@@ -1,0 +1,145 @@
+Cybersecurity Threat Landscape (Part I - Vocabulary)
+Instructions: 
+Fill in the below tables using the reports provided and independent research. 
+
+In the first table, you should primarily use the Symantec Internet Security Threat Report (Volume 24) plus independent research to define the terms plus their context and / or significance. Also, find and define four new terms in the report that you believe are important. This table should be completed as part of your Day 2 In-Class Report activity. 
+
+In the second table, we’ll ask you to use all the reports plus independent research to additional define terms. Each definition should be at least a few sentences, and you should be able to confidently explain them to your fellow classmates. Try to be as detailed as possible and stick to language that can be easily understood by a lay person. This table should be completed as part as your Week 1 Homework. 
+ 
+
+Table 1
+Source: Symantec Internet Security Threat Report (Volume 24) 
+
+Term
+Definition
+Context / Significance
+Coin Miner Attack
+Cyber criminals run coinminer programs on victims devices, using their CPU power to mine cryptocurrencies. Hackers do this by getting the victim to click on a malicious email link that loads cryptomining code on the computer. It could also happen by infecting a website/online ad with JavaScript code that automatically executes when loaded in the victim’s browser.
+Cryptojacking. “Browser-based coin mining takes place inside a web browser and is implemented using scripting languages. If a web page contains a coinmining script, the web page visitors’ computing power will be used to mine for cryptocurrency for as long as the web page is open. Browser-based miners allow cyber criminals to target even fully patched devices and can also allow them to operate stealthily without the activity being noticed by victims. “
+Ransomware
+A type of malicous software that cyber criminals design to block you from accessing your own data. They encrypt your data, and hold it hostage until the demanded money is paid. Not always will victim’s be allowed to regain access to their data, depending on the motive of the attackers.
+“For the first time since 2013, we observed a decrease in ransomware activity during 2018, with the overall number of ransomware infections on endpoints dropping by 20 percent. WannaCry, copycat versions, and Petya, continued to inflate infection figures. When these worms are stripped out from the statistics, the drop in infection numbers is steeper: a 52 percent fall.” 
+Zero Day
+A zero-day is an unknown exploit that exposes a vulnerability in software or hardware and can create complicated problems before anyone realizes it. This happens once the software/hardware vulnerability is exploited and the attacker is able to release malware before a developer is able to assist the vulnerability.
+“Zero-day exploit usage by targeted attack groups continued to decline in 2018. Only 23 percent of attack groups were known to use zero days.”
+Malware
+Malware is the collective name for a number of malicious software variants. Any software that is designed to intentionally cause damage to a compter, computer network, server, or client. Computer viruses, worms, Trojan horses, ransomware, spyware, adware, scareware, and rogue software can all be classified as malware.
+“The use of malicious PowerShell scripts increased by 1,000 percent in 2018, as attackers continued the movement towards living off the land techniques. A common attack scenario uses Office macros to call a PowerShell script, which in turn downloads the malicious payload. Office macro downloaders accounted for the majority of downloader detections “
+
+
+“Living Off the Land”
+The term Living off the land refers to fileless, malware-less attacks that turn a systems own tools against them. Attackers are able to fly under the radar of detection or prevention technologies. Attacks arrive through trusted channels, using fileless attack methods or legit tools for malicious purposes like PowerShell scripts.
+
+
+“This trend of “living off the land” shows no sign of abating—in fact, there was a significant increase in certain activity in 2018. PowerShell usage is now a staple of both cyber crime and targeted attacks—reflected by a massive 1,000 percent increase in malicio”
+Spear Phishing
+Spear phishing is an email scam targeted towards a well researched individual, organization, or business while pretending to be a trusted sender. The aim is to either infect devices with malware or convince victims to present information or send money.
+“Spear-phishing emails remained the most popular avenue for attack and were used by 65 percent of all known groups. The most likely reason for an organization to experience a targeted attack was intelligence gathering, which is the motive for 96 percent of groups. “
+Infection Vector
+An infection vector is like a vulnerability, its about the different ways a device can get infected.
+“URLs used in malicious emails as attackers refocused on using malicious email attachments as a primary infection vector”
+
+
+
+Trojan
+A Trojan is a type of malware that is often disguised as a legit software. User’s are typically tricked by some form of social engineering into loading and executing Trojans on their systems. It is designed to damage, steal, disrupt, or inflict some other harmful action on your data or network.
+“Emotet continued to aggressively expand its market share in 2018, accounting for 16 percent of financial Trojans, up from 4 percent in 2017. Emotet was also being used to spread Qakbot, which was in 7th place in the financial Trojans list, accounting for 1.8 percent of detections. Both of these threats present further serious challenges for organizations due to their self-propagating functionality. “
+Targeted Attack
+A targeted attack refers to a type of threat in which actors actively pursue and compromise a target entity’s infrastructure while remaining anonymous. A Spear Phishing email would be a good example of a targeted attack.
+“PowerShell usage is now a staple of both cyber crime and targeted attacks—reflected by a massive 1,000 percent increase in malicious PowerShell scripts blocked in 2018 on the endpoint.In 2018, Microsoft Office files accounted for almost half (48 percent) of all malicious email attachments, jumping up from just 5 percent in 2017.” 
+Off-The-Shelf Attack Tools
+Attackers are relying on existing tools to blend in with everyday system work and not raise additional alarms. Misusing clean system tools can bypass many protection mitigations like application whitelisting 
+“The increasing use of off-the-shelf tools means attackers leave less distinctive fingerprints behind.” As time goes on, they’ve begun to use more off-the-shelf tools and Living off the Land tactics, meaning it’s become harder to attribute attacks to them.” 
+Watering Hole Attacks
+A watering hole attack is a strategy in which the victim is if a particular group. Attackers seeks to infect a website that members of this group frequently visit. The goal is to gain access to the network at the target’s place of employment.
+“Software update supply chain attacks differ from classic watering hole attacks, where an attacker compromises a website of interest to the victim group and implants an exploit that will compromise the targets’ computers. These watering hole attacks, which are often observed during targeted attacks, attempt to exploit a vulnerability rather than hijack the trusted update process.”
+Lateral Movement Techniques
+A technique used by cyber criminals to systematically move through a network in search of data or assets to exfiltrate. One of the key phases in most targeted attacks is what’s known as lateral movement. Attackers rarely luck out and manage to immediately compromise the computers they are interested in. Instead they’ll usually find a way on to a target’s network by infecting any available computer 
+
+
+“There are many techniques used to perform lateral movement and, in most cases, they leave few traces. There are a few common lateral movement techniques we log. Of those, stolen credentials were the most commonly seen lateral movement technique employed. Attackers often use hacking software tools to obtain credentials from a compromised computer and then use them to attempt to log into other computers on the network. “Pass the hash”—where attackers steal and reuse the underlying hashed version of a password and, without cracking it, can use it to authentic themselves on other computers or servers—was used by just under six percent of groups.”
+DDoS Attacks
+ A distributed denial-of-service is a malicious attempt to disrupt and flood a targeted server, service, or network. By overwhelming the target or it’s infastructure, you are able to disrupt services of a host.
+“DDoS attacks can knock an organization offline, meaning that its systems admins will be busy trying to stem the DDoS attack and may be too distracted to notice suspicious activity on their network indicating that a targeted attack is underway. performing a DDoS attack, the traditional form of decoy, requires a lot more time, effort, and infrastructure.”
+
+
+DNS
+A DNS attack is a cyberattack in which the attacker exploits vulnerabilities in the Domain Name System. This is a grave issue in cybersecurity because the DNS system is a crucial part of the internet infrastructure and at the same time, it has many security holes. 
+“A method involves compromising a DNS server in order to change the domain resolution to a different IP address under the attacker’s control. Both attacks will result in visitors to the domain being redirected to the attacker’s server.”
+BGP Hijacking
+BGP hijacking is when attackers maliciously reroute Internet traffic. Attackers accomplish this by falsely announcing ownership of groups of IP addresses, called IP prefixes, that they do not actually own, control, or route to.
+A case of BGP hijacking in December 2017 saw some of the IP addresses belonging to Microsoft and Apple, among others, rerouted through Russia. This allows attackers to intercept requests for updates from these IP addresses, and instead send down a Trojanized update. It’s a technique that could easily be used to push Trojanized updates.”
+Man in the Middle Attack
+An attack where the attacker secretly relays and possibly alters the communications between two parties who believe that they are directly communicating with each other.
+This can be very crucial as some very important information could be revealed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Table 2
+Term
+Definition
+Incident
+Something that has occured, maybe something that needs to be brought to attention. 
+Breach
+Breaking in and stealing something without authorization
+Vulnerability
+A weakness, weak point, a vector for attack.
+
+
+Exploit
+An exposure, something that can be taken advantage of to attack.
+Insider and Privilege Misuse
+
+
+Payment Card Skimmers
+
+
+Point of Sale Intrusions
+
+
+Physical Theft and Loss
+
+
+Web Application Attacks
+
+
+DDOS
+
+
+
